@@ -1,0 +1,3 @@
+2024-08-24 22:41:40 - Alert: TCP syn scan detected
+2024-08-24 22:41:40 - Alert: TCP syn scan detected
+2024-08-24 22:41:40 - Alert: TCP syn scan detected

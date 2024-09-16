@@ -1,0 +1,2 @@
+# Raise an alert whenever you receive an incoming TCP packet. 
+alert tcp any any -> any any (msg: "receive a tcp packet";)

@@ -1,0 +1,15 @@
+2024-08-24 19:49:32 - Alert: Receive a fin packet
+2024-08-24 19:49:32 - Alert: Receive a syn packet
+2024-08-24 19:49:32 - Alert: Receive a rst packet
+2024-08-24 19:49:32 - Alert: Receive a syn packet
+2024-08-24 19:49:32 - Alert: Receive a rst packet
+2024-08-24 19:49:32 - Alert: Receive a rst packet
+2024-08-24 19:49:32 - Alert: Receive a syn packet
+2024-08-24 19:49:32 - Alert: Receive a rst packet
+2024-08-24 19:49:32 - Alert: Receive a ack packet
+2024-08-24 19:49:32 - Alert: Receive a syn packet
+2024-08-24 19:49:32 - Alert: Receive a syn packet
+2024-08-24 19:49:32 - Alert: Receive a rst packet
+2024-08-24 19:49:32 - Alert: Receive a syn packet
+2024-08-24 19:49:32 - Alert: Receive a fin packet
+2024-08-24 19:49:32 - Alert: Receive a fin packet

@@ -1,0 +1,4 @@
+# Raise an alert whenever receive a TCP packet that comes from the IP address 192.168.0.33 and has the phrase "malicious" in the content
+# Raise an alert whenever recieve an UDP packet that comes from the IP address 192.168.0.44 towards the IP address 192.168.0.55 and has the phrase "attack" in the content
+alert tcp 192.168.0.33 any -> any any (content: "malicious"; msg: "Detect a malicious TCP packet";)
+alert udp 192.168.0.44 any -> 192.168.0.55 any (content: "attack"; msg: "Detect a malicious UDP packet";)

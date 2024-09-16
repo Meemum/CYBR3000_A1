@@ -1,0 +1,3 @@
+iptables -N ICMP
+iptables -A INPUT -p icmp -j ICMP
+iptables -A ICMP -p icmp --icmp-type 8 -m limit --limit 2/second -j ACCEPT

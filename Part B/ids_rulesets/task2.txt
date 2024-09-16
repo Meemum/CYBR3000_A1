@@ -1,0 +1,2 @@
+# Raise an alert whenever receive an ICMP packet that came from IP address 192.168.0.33
+alert icmp 192.168.0.33 any -> any any (msg: "Detect an ICMP packet from IP address 192.168.0.33";)

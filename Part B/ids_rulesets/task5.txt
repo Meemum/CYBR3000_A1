@@ -1,0 +1,8 @@
+# Raise an alert whenever receive an ICMP packet.
+# Raise an alert whenever receive a TCP packet that has a source IP address of 192.168.0.66.
+# Raise an alert whenever receive an IP packet that has a destination IP address of 192.168.0.46 with a destination port number of 6666.
+# Raise an alert whenever receive a UDP packet that has a source IP address of 192.168.0.33 with a source port number of 1234, and a destination IP address of 192.168.0.45 with a destination port number of 4444
+alert icmp any any -> any any (msg: "Detect an ICMP packet";)
+alert tcp 192.168.0.66 any -> any any (msg: "Detect a tcp packet";)
+alert ip any any -> 192.168.0.46 6666 (msg: "Detect an IP packet";)
+alert udp 192.168.0.33 1234 -> 192.168.0.45 4444 (msg: "Detect a UDP packet";)

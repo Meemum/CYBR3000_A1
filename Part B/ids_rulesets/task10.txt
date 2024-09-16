@@ -1,0 +1,2 @@
+# Detect TCP syn scan
+alert tcp 192.168.0.33 any -> 192.168.0.66 any (msg: "TCP syn scan detected"; flags: S; detection_filter: count 10, seconds 2;)

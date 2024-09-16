@@ -1,0 +1,3 @@
+# If you receive more than a certain number of TCP packets within a short period of time, raise an alert for each TCP packet that exceeds the limit.
+# e.g. Raise an alert for each TCP packet you received if you have already received 10 TCP packets within 2 seconds. If the total number of TCP packets you received within 2 seconds is 15, 5 alerts should be raised. 
+alert tcp 192.168.0.33 any -> any any (msg: "TCP flooding detected"; detection_filter: count 10, seconds 2;)

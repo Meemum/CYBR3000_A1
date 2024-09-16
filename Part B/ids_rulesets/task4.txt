@@ -1,0 +1,2 @@
+# Raise an alert whenever receive a UDP packet that has a source IP address of 192.168.0.33 with a source port number of 1234, and a destination IP address of 192.168.0.45 with a destination port number of 4444
+alert udp 192.168.0.33 1234 -> 192.168.0.45 4444 (msg: "Detect a UDP packet from IP address 192.168.0.33 and port 1234 towards IP address 192.168.0.45 and port 4444";)

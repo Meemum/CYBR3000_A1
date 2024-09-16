@@ -1,0 +1,2 @@
+# Raise an alert whenever receive a TCP packet that comes from IP address 192.168.0.33 towards IP address 192.168.0.41 that has content including the phrase "malicious"
+alert tcp 192.168.0.33 any -> 192.168.0.41 any (content: "malicious"; msg: "Detect a malicious TCP packet";)

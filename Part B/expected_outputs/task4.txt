@@ -1,0 +1,1 @@
+2024-08-24 19:00:21 - Alert: Detect a UDP packet from IP address 192.168.0.33 and port 1234 towards IP address 192.168.0.45 and port 4444

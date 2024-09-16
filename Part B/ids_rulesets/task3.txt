@@ -1,0 +1,2 @@
+# Raise an alert whenever receive an IP packet that has a source IP address of 192.168.0.44 and a destination IP address of 192.168.0.55
+alert ip 192.168.0.44 any -> 192.168.0.55 any (msg: "Detect an ip packets from IP address 192.168.0.44 towards IP address 192.168.0.55";)

@@ -1,0 +1,2 @@
+# Raise an alert for each TCP fin packet received within 5 seconds that exceeds 10 TCP FIN packets and contains the phrase 'malicious' in its contents.
+alert tcp 192.168.0.44 any -> 192.168.0.55 any (content: "malicious"; msg: "Malicious TCP FIN Packet detected"; flags: F; detection_filter: count 10, seconds 5;)

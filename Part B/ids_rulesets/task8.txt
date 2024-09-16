@@ -1,0 +1,5 @@
+# Raise alerts when receiving TCP packets with specific flags
+alert tcp 192.168.0.33 any -> 192.168.0.55 any (msg: "Receive a syn packet"; flags: S;)
+alert tcp 192.168.0.33 any -> 192.168.0.55 any (msg: "Receive a ack packet"; flags: A;)
+alert tcp 192.168.0.33 any -> 192.168.0.55 any (msg: "Receive a fin packet"; flags: F;)
+alert tcp 192.168.0.33 any -> 192.168.0.55 any (msg: "Receive a rst packet"; flags: R;)
